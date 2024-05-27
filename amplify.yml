@@ -10,6 +10,7 @@ frontend:
     build:
       commands:
         - npm install -g @angular/cli@16
+        - npm add @aws-amplify/ui-angular
         - ng version
         - ng build --configuration=production
   artifacts:
